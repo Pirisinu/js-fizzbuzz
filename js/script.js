@@ -18,19 +18,22 @@ const boxContainer = document.querySelector('.box-container');
 for (let i = 1; i <= 100; i++){
   const box = document.createElement('div')
   box.classList.add('box');
-  box.append(i);
 
   if (!(i % 3) && !(i % 5)){
     box.classList.add('red-box');
+    box.append('FizzBuzz')
   }
   else if(!(i % 3)){
     box.classList.add('green-box');
+    box.append('Buzz')
   }
   else if (!(i % 5)){
     box.classList.add('yellow-box');
+    box.append('Fizz')
   }
   else{
     box.classList.add('blue-box');
+    box.append(i);
   }
 
   boxContainer.append(box)
