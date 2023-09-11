@@ -1,0 +1,30 @@
+main{
+  background-color: #083B4C;
+}
+.my_h1{
+  color: white;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+.box{
+  height: 90px;
+  width: 90px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+.blue-box{
+  background-color: #1389B2;
+}
+.green-box{
+  background-color: #0CD6A1;
+}
+.yellow-box{
+  background-color: #FFD166;
+}
+.red-box{
+  background-color: #F0466F;
+}
