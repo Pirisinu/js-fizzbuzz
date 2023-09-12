@@ -17,19 +17,19 @@ const boxContainer = document.querySelector('.box-container');
 
 for (let i = 1; i <= 100; i++){
   const box = document.createElement('div')
-  box.classList.add('box');
+  box.className = box ;
 
   if (!(i % 3) && !(i % 5)){
     box.classList.add('red-box');
-    box.append('FizzBuzz')
+    box.textContent('FizzBuzz')
   }
   else if(!(i % 3)){
     box.classList.add('green-box');
-    box.append('Buzz')
+    box.textContent('Buzz')
   }
   else if (!(i % 5)){
     box.classList.add('yellow-box');
-    box.append('Fizz')
+    box.textContent('Fizz')
   }
   else{
     box.classList.add('blue-box');
